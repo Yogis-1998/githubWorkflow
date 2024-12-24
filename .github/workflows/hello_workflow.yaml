@@ -11,4 +11,4 @@ jobs:
       - name: Create file "hello.txt" with the word Hello
         run: echo "Hello" > hello.txt
       - name: Show me the answer
-        run: echo "$(cat hello.txt) $(cat from.txt)"
+        run: echo -n "$(cat hello.txt) $(cat from.txt)"
